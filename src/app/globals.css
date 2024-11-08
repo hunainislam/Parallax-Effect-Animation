@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,55 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
-body {
-  background: #f2f2f2;
-}
-
-.header {
-  color: #4A5568; 
-  font-family: sans-serif;
-}
-
-.container {
-  max-width: 100%;        
-  margin: 0 auto;          
-  display: flex;           
-  flex-wrap: wrap;        
-  padding: 1.25rem;        
-  flex-direction: column;  
-  align-items: center;     
-}
-
-.link {
-  display: flex;                  
-  font-family: sans-serif;
-  font-weight: 500;              
-  align-items: center;           
-  color: #1a202c;                
-  margin-bottom: 1rem;           
-}
-
-span {
-  margin-left: 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.nav {
-  display: flex;                 
-  flex-wrap: wrap;            
-  align-items: center;            
-  font-size: 1rem;                
-  justify-content: center;        
-}
-
-h1 {
-  font-size: 120px;
-  text-align: center;
-  color: rgba(255, 255, 255, .4);
+  font-family: "Poppins", sans-serif;
 }
 
 .parallax-1 {
@@ -78,96 +29,4 @@ h1 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-.parallax-inner {
-  padding: 10% 0;
-}
-
-h2 {
-  font-size: 32px;
-  color: #555;
-  text-align: center;
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin: 20px 0 10px;
-}
-
-p {
-  font-size: 16px;
-  color: #555;
-  text-align: justify;
-  line-height: 30px;
-  margin: 0 50px 40px;
-}
-
-p:nth-of-type(2),
-p:nth-of-type(3) {
-  margin: 40px 50px;
-}
-
-
-.footer {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0.1rem 2%;
-}
-
-.footer-text p {
-  font-size: 1rem;
-  color: black;
-}
-
-
-@media (min-width: 768px) {
-  .container {
-    flex-direction: row; 
-  }
-
-  .link {
-    margin-bottom: 0;          
-  }
-
-  .nav {
-    margin-left: auto;         
-  }
-
-  h1 {
-    font-size: 80px; 
-  }
-
-  h2 {
-    font-size: 40px; 
-  }
-
-  p {
-    margin: 0 50px 40px; 
-  }
-
-  p:nth-of-type(2),
-  p:nth-of-type(3) {
-    margin: 40px 50px; 
-  }
-}
-
-@media (max-width: 767px) {
-  h1 {
-    font-size: 40px; 
-  }
-
-  h2 {
-    font-size: 24px; 
-  }
-
-  p {
-    font-size: 14px; 
-    line-height: 22px; 
-    margin: 0 15px 20px; 
-  }
-  
-  .footer-text p {
-    font-size: 0.875rem; 
-  }
 }
